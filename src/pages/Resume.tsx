@@ -21,7 +21,7 @@ const Resume = () => {
             className="text-center space-y-4"
           >
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Resume
+              RESUME
             </h1>
             <p className="text-xl text-muted-foreground">
               Download my complete professional profile
@@ -212,11 +212,11 @@ const Resume = () => {
               <div className="flex gap-4 justify-center">
                 <Button className="btn-glow">
                   <Download className="w-4 h-4 mr-2" />
-                  Download Resume (PDF)
+                  Download RESUME (PDF)
                 </Button>
                 <Button variant="outline" className="glass-card border-primary/30">
                   <Mail className="w-4 h-4 mr-2" />
-                  Contact Me
+                  CONTACT ME
                 </Button>
               </div>
             </Card>

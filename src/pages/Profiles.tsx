@@ -115,7 +115,7 @@ const Profiles = () => {
             className="text-center space-y-4"
           >
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Coding Profiles
+              CODING PROFILES
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               My journey across various coding platforms and competitive programming sites
