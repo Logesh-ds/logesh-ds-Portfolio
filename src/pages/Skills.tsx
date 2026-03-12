@@ -8,60 +8,47 @@ import { Database, BarChart3, Code, Layers, Brain } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "PROGRAMMING LANGUAGES",
       icon: Code,
       color: "from-blue-500 to-cyan-500",
       skills: [
         { name: "Python", level: 90, description: "Data analysis, ML, automation" },
         { name: "SQL", level: 95, description: "Database queries, optimization" },
-        { name: "R", level: 75, description: "Statistical analysis, visualization" },
-        { name: "JavaScript", level: 80, description: "Web development, D3.js" }
+        { name: "R", level: 80, description: "Statistical analysis, visualization" },
       ]
     },
     {
-      title: "Data Visualization",
+      title: "DATA VISUALISATION",
       icon: BarChart3,
       color: "from-purple-500 to-pink-500",
       skills: [
-        { name: "Power BI", level: 92, description: "Interactive dashboards, DAX" },
-        { name: "Tableau", level: 88, description: "Advanced visualizations, storytelling" },
-        { name: "Matplotlib/Seaborn", level: 85, description: "Python data visualization" },
-        { name: "D3.js", level: 70, description: "Custom web visualizations" }
+        { name: "Power BI", level: 95, description: "Interactive dashboards, DAX" },
+        { name: "Matplotlib", level: 85, description: "Python data visualization" },
       ]
     },
     {
-      title: "Machine Learning",
+      title: "MACHINE LEARNING",
       icon: Brain,
       color: "from-green-500 to-emerald-500",
       skills: [
-        { name: "Scikit-learn", level: 88, description: "Classification, regression, clustering" },
         { name: "Pandas", level: 95, description: "Data manipulation, analysis" },
         { name: "NumPy", level: 90, description: "Numerical computing" },
-        { name: "TensorFlow", level: 75, description: "Deep learning, neural networks" }
+        { name: "Scikit-learn", level: 88, description: "Classification, regression, clustering" },
+        { name: "TensorFlow", level: 85, description: "Deep learning, neural networks" }
       ]
     },
     {
-      title: "Database & Tools",
+      title: "DATABASE & TOOLS",
       icon: Database,
       color: "from-orange-500 to-red-500",
       skills: [
-        { name: "MySQL", level: 90, description: "Relational database management" },
+        { name: "MySQL", level: 95, description: "Relational database management" },
         { name: "MongoDB", level: 80, description: "NoSQL database operations" },
         { name: "Excel", level: 95, description: "Advanced formulas, pivot tables" },
-        { name: "Git", level: 85, description: "Version control, collaboration" }
+        { name: "Github", level: 85, description: "Version control, collaboration" }
       ]
     },
-    {
-      title: "Full Stack Development",
-      icon: Layers,
-      color: "from-indigo-500 to-purple-500",
-      skills: [
-        { name: "React", level: 85, description: "Frontend development, hooks" },
-        { name: "Node.js", level: 80, description: "Backend development, APIs" },
-        { name: "HTML/CSS", level: 90, description: "Web markup, styling" },
-        { name: "FastAPI", level: 75, description: "Python web APIs" }
-      ]
-    }
+    
   ];
 
   return (
@@ -170,10 +157,9 @@ const Skills = () => {
                 {[
                   { title: "Data Science Specialization", provider: "Coursera", status: "Completed" },
                   { title: "Machine Learning A-Z", provider: "Udemy", status: "Completed" },
-                  { title: "Power BI Certification", provider: "Microsoft", status: "In Progress" },
+                  { title: "Power BI Certification", provider: "Microsoft", status: "Completed" },
                   { title: "Advanced SQL", provider: "HackerRank", status: "Completed" },
                   { title: "Python for Data Science", provider: "Kaggle", status: "Completed" },
-                  { title: "Tableau Desktop Specialist", provider: "Tableau", status: "Planning" }
                 ].map((cert, index) => (
                   <motion.div
                     key={index}

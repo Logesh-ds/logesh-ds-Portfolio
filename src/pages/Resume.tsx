@@ -91,7 +91,7 @@ const Resume = () => {
                         <span>2021 - 2024</span>
                       </div>
                     </div>
-                    <p className="text-primary font-medium mb-2">[University Name] - Tamil Nadu, India</p>
+                    <p className="text-primary font-medium mb-2">Discover College - Tamil Nadu, India</p>
                     <ul className="text-muted-foreground space-y-1 list-disc list-inside">
                       <li>Coursework: Machine Learning, Statistics, Data Mining, Database Systems</li>
                       <li>Relevant Projects: Customer Churn Prediction, Sales Analytics Dashboard</li>
