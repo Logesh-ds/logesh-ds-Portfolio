@@ -22,7 +22,7 @@ const About = () => {
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               About Me
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-foreground max-w-2xl mx-auto">
               Get to know the person behind the data
             </p>
           </motion.div>
@@ -43,7 +43,7 @@ const About = () => {
                   <h2 className="text-2xl font-semibold">My Story</h2>
                 </div>
                 
-                <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+                <div className="space-y-4 text-lg text-foreground leading-relaxed">
                   <p>
                     I'm <span className="text-primary font-semibold">LOGESH S</span>, 
                     a passionate data science graduate from Tamil Nadu, Hosur. 
@@ -83,26 +83,26 @@ const About = () => {
                   <h3 className="text-xl font-semibold">Career Goals</h3>
                 </div>
                 
-                <div className="space-y-4 text-muted-foreground">
+                <div className="space-y-4 text-foreground">
                   <p>
-                    My primary goal is to become a <span className="text-primary font-semibold">Data Scientist</span> 
+                    My primary goal is to become a <span className="text-primary font-semibold">Data Scientist </span> 
                     where I can make meaningful impact through data-driven solutions.
                   </p>
                   
                   <ul className="space-y-2 list-none">
-                    <li className="flex items-start gap-2">
+                    <li className="flex items-start gap-3">
                       <span className="text-primary">•</span>
                       Build predictive models that solve real-world problems
                     </li>
-                    <li className="flex items-start gap-2">
+                    <li className="flex items-start gap-3">
                       <span className="text-primary">•</span>
                       Lead data science teams in innovative projects
                     </li>
-                    <li className="flex items-start gap-2">
+                    <li className="flex items-start gap-3">
                       <span className="text-primary">•</span>
                       Contribute to the data science community
                     </li>
-                    <li className="flex items-start gap-2">
+                    <li className="flex items-start gap-3">
                       <span className="text-primary">•</span>
                       Mentor the next generation of data scientists
                     </li>
@@ -125,7 +125,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold">What I Value</h3>
                 </div>
                 
-                <div className="space-y-4 text-muted-foreground">
+                <div className="space-y-4 text-foreground">
                   <div className="space-y-3">
                     <div>
                       <h4 className="text-primary font-medium mb-1">Continuous Learning</h4>
@@ -161,25 +161,25 @@ const About = () => {
           >
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-primary mb-4">My Journey</h2>
-              <p className="text-muted-foreground">From student to aspiring data scientist</p>
+              <p className="text-foreground">From student to aspiring data scientist</p>
             </div>
             
             <div className="space-y-8">
               {[
                 {
-                  year: "2024",
+                  year: "2027",
                   title: "BSc Data Science Graduate",
                   description: "Completed my degree with focus on machine learning, statistics, and data visualization.",
                   icon: GraduationCap
                 },
                 {
-                  year: "2023",
+                  year: "2026",
                   title: "Advanced Skills Development",
-                  description: "Mastered SQL, Python, Power BI, and Tableau through hands-on projects.",
+                  description: "Mastered SQL, Python, Power BI through hands-on projects.",
                   icon: Code2
                 },
                 {
-                  year: "2022",
+                  year: "2026",
                   title: "First Data Projects",
                   description: "Built my first predictive models and data visualization dashboards.",
                   icon: Target
@@ -204,7 +204,7 @@ const About = () => {
                       <span className="text-primary font-bold text-lg">{item.year}</span>
                       <h3 className="text-xl font-semibold">{item.title}</h3>
                     </div>
-                    <p className="text-muted-foreground">{item.description}</p>
+                    <p className="text-foreground">{item.description}</p>
                   </Card>
                 </motion.div>
               ))}

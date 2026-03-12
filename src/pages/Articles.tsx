@@ -254,7 +254,7 @@ const Articles = () => {
                   {
                     icon: "📊",
                     title: "Data Visualization",
-                    topics: ["Power BI", "Tableau", "Python Plotting", "Dashboard Design"]
+                    topics: ["Power BI", "Python Plotting", "Dashboard Design"]
                   },
                   {
                     icon: "🔍",

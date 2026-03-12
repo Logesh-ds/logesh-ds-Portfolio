@@ -70,7 +70,7 @@ const Resume = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   Passionate Data Science graduate with strong analytical skills and hands-on experience in 
                   machine learning, data visualization, and statistical analysis. Proficient in Python, SQL, 
-                  Power BI, and Tableau. Seeking to leverage technical expertise and problem-solving abilities 
+                  Power BI. Seeking to leverage technical expertise and problem-solving abilities 
                   to drive data-driven decision making and create meaningful business impact as a Data Scientist.
                 </p>
               </section>
@@ -120,7 +120,6 @@ const Resume = () => {
                     <h4 className="font-semibold mb-4 text-lg">Data Visualization & Tools</h4>
                     <ul className="space-y-2 text-muted-foreground">
                       <li>• <strong>Power BI:</strong> DAX, Interactive Dashboards</li>
-                      <li>• <strong>Tableau:</strong> Advanced Visualizations, Storytelling</li>
                       <li>• <strong>Excel:</strong> Pivot Tables, Advanced Formulas</li>
                       <li>• <strong>Web Dev:</strong> React, Node.js, HTML/CSS, JavaScript</li>
                     </ul>

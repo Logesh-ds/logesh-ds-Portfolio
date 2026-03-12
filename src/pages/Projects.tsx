@@ -72,7 +72,7 @@ const Projects = () => {
       title: "Healthcare Data Visualization",
       description: "Created interactive healthcare dashboards analyzing patient outcomes, treatment effectiveness, and resource utilization using Tableau and SQL.",
       image: "🏥",
-      technologies: ["Tableau", "SQL", "R", "Statistical Analysis"],
+      technologies: ["Power BI", "SQL", "R", "Statistical Analysis"],
       category: "Healthcare Analytics",
       date: "2023",
       github: "#",

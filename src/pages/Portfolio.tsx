@@ -39,19 +39,19 @@ const Portfolio = () => {
                 transition={{ delay: 0.6 }}
                 className="text-5xl md:text-7xl font-bold font-heading bg-gradient-primary bg-clip-text text-transparent"
               >
-                LOGESH S
+                LOGESH  S
               </motion.h1>
               
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 1, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8 }}
+                transition={{ delay: 0.10 }}
                 className="space-y-2"
               >
-                <p className="text-xl md:text-2xl text-muted-foreground">
+                <p className="text-xl md:text-2.5xl text-foreground">
                   BSc Data Science Graduate
                 </p>
-                <p className="text-lg text-primary-dim typing">
+                <p className="text-lg text-primary">
                   Aspiring Data Scientist
                 </p>
               </motion.div>
@@ -60,10 +60,10 @@ const Portfolio = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.0 }}
-                className="text-lg text-muted-foreground max-w-2xl leading-relaxed"
+                className="text-lg text-foreground max-w-2xl leading-relaxed"
               >
                 Passionate about transforming raw data into meaningful insights. 
-                Skilled in SQL, Python, Power BI, and Tableau. Ready to drive 
+                Skilled in SQL, Python, Power BI. Ready to drive 
                 data-driven decision making in dynamic organizations.
               </motion.p>
             </div>
@@ -103,7 +103,7 @@ const Portfolio = () => {
               transition={{ delay: 1.4 }}
               className="flex flex-wrap gap-6 text-muted-foreground"
             >
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary" />
                 <span>8870989882</span>
               </div>
@@ -181,11 +181,7 @@ const Portfolio = () => {
           <div className="flex justify-center gap-4 flex-wrap">
             {[
               { icon: Linkedin, label: "LinkedIn", href: "#", color: "#0077B5" },
-              { icon: Github, label: "GitHub", href: "#", color: "#333" },
-              { icon: Instagram, label: "Instagram", href: "#", color: "#E4405F" },
-              { icon: Youtube, label: "YouTube", href: "#", color: "#FF0000" },
-              { icon: Twitter, label: "Twitter", href: "#", color: "#1DA1F2" }
-            ].map((social, index) => (
+              { icon: Github, label: "GitHub", href: "#", color: "rgba(242, 246, 247, 0.94)" },            ].map((social, index) => (
               <motion.a
                 key={index}
                 href={social.href}

@@ -382,7 +382,7 @@ const Contact = () => {
                   },
                   {
                     question: "What's your preferred tech stack?",
-                    answer: "Python, SQL, Power BI, Tableau for data science. React, Node.js for web development. Always open to learning new technologies."
+                    answer: "Python, SQL, Power BI for data science. React, Node.js for web development. Always open to learning new technologies."
                   },
                   {
                     question: "Do you provide mentoring or tutoring?",
